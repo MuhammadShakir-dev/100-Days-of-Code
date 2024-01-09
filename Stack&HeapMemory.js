@@ -1,7 +1,10 @@
 // Stack & Heap memory
 /*
     Stack => use with (Primitive Datatype)
+        you will always get a copy of real value in Stack.
+
     Heap memory => use with (Non-Primitive Datatype)
+        you will always get a refernce of original value in Heap.
 */
 
 // Stack memory example.
