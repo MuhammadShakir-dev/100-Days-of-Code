@@ -24,3 +24,11 @@ console.log(remeaningBlanace.toPrecision(4));
 
 let newBalance = 112000;
 console.log(newBalance.toLocaleString('en-PK'));
+
+
+// -------------- Maths --------------------
+
+
+console.log(Math.abs(-4));
+console.log(Math.PI);
+console.log(Math.round(123.69));
