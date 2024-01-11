@@ -11,5 +11,11 @@ console.log(`${myName} & ${myProfession}`);
 
 // There is another way by which you can write strings.
 let myEmail = new String('MuhammadShakirdev@gmail.com');
-console.log(myEmail); 
+console.log(myEmail);
+
+// Strings Methods.
+console.log(myEmail.toUpperCase());
+console.log(myEmail.charAt(4));
+let mailDomain = myEmail.includes('gmail');
+console.log(mailDomain);
 
