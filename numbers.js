@@ -29,6 +29,19 @@ console.log(newBalance.toLocaleString('en-PK'));
 // -------------- Maths --------------------
 
 
-console.log(Math.abs(-4));
-console.log(Math.PI);
-console.log(Math.round(123.69));
+// console.log(Math.abs(-4));
+// console.log(Math.PI);
+// console.log(Math.round(123.69));
+// console.log(Math.min(4,5,2,3,4,5));
+// console.log(Math.max(3,4,2,4,5,6,7,9));
+
+console.log(Math.floor(Math.random() * 20) + 1);
+
+// Generate random numbers between 10 - 20
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+
+
