@@ -16,18 +16,18 @@ console.log(typeof ary1); // object
 
 
 ary1.push(6); // add 6 at the end of the array.
-console.log(ary1);
+// console.log(ary1);
 
 ary2.pop(); // del the last element from your array.
-console.log(ary2);
+// console.log(ary2);
 
 ary3.shift(); // del the first element from your array.
-console.log(ary3);
+// console.log(ary3);
 
 ary3.unshift(1); // adds a new element in your array.
-console.log(ary3);
+// console.log(ary3);
 
-console.log(ary3.includes(5)); // true
+// console.log(ary3.includes(5)); // true
 
 // slice and splice
 // slice and splice are different from each other main diff is that slice doesn't effect/manipulate the original array
@@ -36,9 +36,18 @@ console.log(ary3.includes(5)); // true
 
 const newArray = [1, 2, 3, 4, 5];
 
-console.log("A", newArray);
-console.log(newArray.slice(1, 3));
+// console.log("A", newArray);
+// console.log(newArray.slice(1, 3));
 
-console.log("B", newArray);
-console.log(newArray.splice(1, 3));
-console.log("Original Array",newArray);
+// console.log("B", newArray);
+// console.log(newArray.splice(1, 3));
+// console.log("Original Array", newArray);
+
+
+// now i have to merged both of the above arrays so for this i have diff methods in js
+
+let marvel_Heros = ["Thor","Ironman","Spiderman"];
+let dc_Heros = ["Superman","Batman","Flash"];
+
+let all_Heros = [...marvel_Heros, ...dc_Heros];
+console.log(all_Heros);
