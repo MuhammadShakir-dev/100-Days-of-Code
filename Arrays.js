@@ -51,3 +51,28 @@ let dc_Heros = ["Superman","Batman","Flash"];
 
 let all_Heros = [...marvel_Heros, ...dc_Heros];
 console.log(all_Heros);
+
+
+// Let's take another example
+// Suppose you have an array of array of array and your task is to make a single array in which all values of sub
+// array are present.
+
+const new_Array = [1, 2, 3, [4, 5], 6, [7, 8, [9, 10]]];
+const final_Array = new_Array.flat(Infinity) // if you don't know the depth of your array just write infinity.
+
+console.log(final_Array);
+console.log(new_Array);
+
+
+// Convert strings into arrays.
+
+let value = "Muhammad Shakir";
+let array_Value = Array.from(value);
+console.log(array_Value);
+
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1, score2, score3));
