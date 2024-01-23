@@ -62,3 +62,10 @@ const myAppUser = {
 
 console.log(Object.keys(myAppUser)); // [ 'id', 'name', 'email', 'location', 'age' ]
 console.log(Object.values(myAppUser)); // [ 1, 'Muhammad Shakir', 'MuhammadShakirdev@gmail.com', 'Karachi', 22 ]
+
+
+// If you have a big number of object and you wanan get a value from the objects but not sure that the object has the value
+// for this we have.
+
+console.log(myAppUser.hasOwnProperty('isLoggedIn'));
+console.log(myAppUser.hasOwnProperty('id'));
