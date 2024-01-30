@@ -4,7 +4,7 @@
 // IFEE is Imddiatly invoked/execute itself after the function defintion.
 
 // Why we use IFEE?
-// Some time we want to get our function be poluted by some variables in Globel scope so to get rid from this
+// Some time we don't want to get our function be polluted by some variables in Globel scope so to get rid from this
 // we use IFEE.
 
 (function add(num1, num2) {
