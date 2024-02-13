@@ -58,4 +58,20 @@ let productsPrices = products.map((prodcut) => {
     return `${prodcut.name} Pice is $:${prodcut.price}`
 })
 
-console.log(productsPrices);
+// console.log(productsPrices);
+
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Task: Multiply all items of array with 10;
+// Task: Add 1 in all items of array;
+// filter out all items > 40
+
+let newItems = myNums
+    .map(num => num * 10)
+    .map(num => num + 1)
+    .filter(num => num > 40);
+    
+console.log(newItems);
+
+// This is called chaning where we use mutiple methods at once in JS
