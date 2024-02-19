@@ -1,0 +1,25 @@
+What is DOM?
+
+DOM is Document Object Model. 
+The Document Object Model (DOM) is a programming interface used to represent and interact with the 
+structure of HTML, XML, and XHTML documents. It provides a way for programs to dynamically access, 
+manipulate, and update the content, structure, and style of web pages in real-time. In simpler terms, 
+it's like a map that lets web developers navigate and modify the elements of a webpage using code.
+
+
+Why we use DOM?
+
+1. Interactivity: DOM enables dynamic changes to web content, making web pages interactive.
+
+2. Element Manipulation: It allows developers to easily modify and manipulate individual elements on a webpage.
+
+3. Browser Compatibility: DOM ensures consistent functionality across different web browsers.
+
+4. Data Binding: Developers can efficiently update content by binding data to specific DOM elements.
+
+5. Accessibility: DOM supports enhancements for better accessibility, aiding users with disabilities.
+
+
+Basic diagram of a webpage DOM.
+
+link: https://www.figma.com/file/Ihmk4UlzJe6GefqtkxLOHt/DOM?type=whiteboard&node-id=0%3A1&t=yKphw0wEmkn7XPwJ-1
