@@ -26,5 +26,14 @@ title.style.color = 'black'
 title.style.textAlign = 'center'
 
 
+// Now let's see how to add content 
+title.innerText; // shows only the visile text on the webpage not the hidden onces .
+title.textContent; // shows the actual text present in an HTML Tag doesn't matters it is hidden or not.
+title.innerHTML; // gives you the HTML value and if you have written nested HTML tags it will give you that to.
 
+
+
+
+  
+ 
 
