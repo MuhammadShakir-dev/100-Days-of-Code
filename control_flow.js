@@ -88,12 +88,4 @@ const shoppingItemCostCalculator = (...items) => {
 
 console.log(shoppingItemCostCalculator(999, 882, 222, 777, 1099)); // 3979
 
-/* 
-BMI Calculator:
-Build a BMI (Body Mass Index) calculator function. 
-Based on the BMI value, categorize the person as "Underweight," "Normal weight," "Overweight," or "Obese."
-*/
 
-const BmiCalculator = () => { 
-
-}
