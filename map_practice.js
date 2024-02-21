@@ -5,13 +5,13 @@ Task: You need to create an array of objects containing the names of students al
 The passing score is 80 or above.
 */
 
-const students = [
-    { id: 1, name: 'John', score: 85 },
-    { id: 2, name: 'Alice', score: 92 },
-    { id: 3, name: 'Bob', score: 78 },
-    { id: 4, name: 'Eve', score: 88 },
-    { id: 5, name: 'Michael', score: 95 }
-];
+    const students = [
+        { id: 1, name: 'John', score: 85 },
+        { id: 2, name: 'Alice', score: 92 },
+        { id: 3, name: 'Bob', score: 78 },
+        { id: 4, name: 'Eve', score: 88 },
+        { id: 5, name: 'Michael', score: 95 }
+    ];
 
 
 // Solution:1
