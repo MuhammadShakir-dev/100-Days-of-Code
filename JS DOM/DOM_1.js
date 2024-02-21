@@ -70,6 +70,18 @@ temLiList.forEach((list) => {
 })
 
 
-  
- 
+// Lets understand now HTML Collection
 
+const myLi = document.getElementsByClassName('listItem'); // it will return me an HTML Collection but i'm unable to apply array mehtod or function on it as its not an array
+
+// lets store this in a varialble and convert this is an array
+Array.from(myLi);
+
+const myCovertedArray = Array.from(myLi);
+myCovertedArray.forEach((list) => { 
+    list.style.padding = "10px 10px"
+    list.style.backgroundColor = "Green"
+    list.style.margin = "10px 0px"
+})
+
+// in this you can convert and HTML collection into an Array and apply array method on it
