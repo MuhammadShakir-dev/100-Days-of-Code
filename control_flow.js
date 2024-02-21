@@ -95,5 +95,5 @@ Based on the BMI value, categorize the person as "Underweight," "Normal weight,"
 */
 
 const BmiCalculator = () => { 
-    
+
 }
