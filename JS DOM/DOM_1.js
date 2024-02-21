@@ -32,6 +32,42 @@ title.textContent; // shows the actual text present in an HTML Tag doesn't matte
 title.innerHTML; // gives you the HTML value and if you have written nested HTML tags it will give you that to.
 
 
+// Now lets understand some usefull query selectors that will use in real world
+// There is big difference between query selector and query Selector all
+
+document.querySelector('h1'); // this will give you the very first h1 present in the HTML Doc
+document.querySelectorAll('h1'); // this will give you all the h1's present in the HTML Doc
+document.querySelector('#title'); // this will give you id who name is title
+document.querySelector('.heading') // this will give you class who name is heading
+document.querySelector('input') // for selecting input
+document.querySelector('input[type = "password"]') // select input where type =  
+document.querySelector('p:first-child') // select para first child
+
+
+// lets see you we can select a ul and inside that ul select li and apply styles on that
+const ul = document.querySelector('ul')
+const trunGreen = ul.querySelector('li')
+trunGreen.style.backgroundColor = "Green"
+trunGreen.style.padding = "10px 10px"
+
+
+// Lets understand the difference between querySelectorAll and querySelector
+/*
+    querySelector will return you a HTML element
+    querySelectorAll will return you a NodeList in which have all the HTML element you are looking for
+
+    Nodelist is not an array =>  you will not apply map, reduce or other array methods on it but some things you can use in it
+*/
+
+const temLiList = document.querySelectorAll('li')
+temLiList[0].style.color = "Green"
+temLiList[1].style.color = "Yellow"
+temLiList[2].style.color = "Red"
+// in this way you can apply properties and manipulte the,
+
+temLiList.forEach((list) => {
+    list.style.backgroundColor = 'green'
+})
 
 
   
