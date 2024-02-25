@@ -22,3 +22,11 @@ optimizedAddLang('golang');
 optimizedAddLang('Ruby on Rails');
 optimizedAddLang('Java');
 
+// Now lets learn how to edit the values in DOM
+
+// This is the first method or way in which you can edit the text
+const secondLang = document.querySelector("li:nth-child(2)");
+secondLang.innerHTML = "Mojo";
+
+
+// 
