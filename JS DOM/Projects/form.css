@@ -57,6 +57,11 @@ body {
     color: white;
 }
 
+.leftDiv button:hover{
+    background-color: #7E30E1;
+    transition: all 1s ease,
+}
+
 .leftDiv ul {
     padding: none;
     padding-left: 0px;
