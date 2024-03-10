@@ -1,0 +1,250 @@
+body {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #F3F8FF;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: #F3F8FF;
+}
+
+.leftDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftDiv h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.leftDiv input {
+    display: block;
+    width: 400px;
+    height: 60px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.leftDiv button {
+    width: 400px;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #49108B;
+    font-weight: 600;
+    color: white;
+}
+
+.leftDiv ul {
+    padding: none;
+    padding-left: 0px;
+}
+
+
+.leftDiv ul li {
+    text-align: center;
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.rightDiv {
+    width: 50%;
+    background-color: #49108B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.rightDiv p {
+    text-align: center;
+    color: white;
+}
+
+.rightDiv h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.rightDiv p {
+    width: 70%;
+}
+
+.rightDiv a {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 25px 40px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.rightDiv a:hover {
+    background-color:#7E30E1;
+    border: none;
+    transition: all 0.5s ease;
+    border: 1px solid white;
+    
+}
+
+/* For devices with a maximum width of 768px */
+@media only screen and (max-width: 1230px) {
+    .formContainer {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .leftDiv, .rightDiv {
+        width: 100%;
+
+    }
+
+
+    .leftDiv h1, .rightDiv h1 {
+        font-size: 40px;
+    }
+
+    .leftDiv input, .leftDiv button {
+        width: 400px;
+        margin: 10px auto;
+    }
+
+    .leftDiv ul li {
+        font-size: 25px;
+    }
+
+    .rightDiv p {
+        width: 90%;
+    }
+
+    .rightDiv a {
+        padding: 15px 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+        background-color: #7E30E1;
+        outline: none;
+        cursor: pointer;
+    }
+
+}
+
+/* For devices with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+
+    .formContainer {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: #F3F8FF;
+    }
+
+
+    .leftDiv h1, .rightDiv h1 {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    .leftDiv input {
+        width: 320px;
+        /* Set width to 100% on mobile devices */
+    }
+
+    .leftDiv button {
+        width: 320px;
+    }
+
+
+    .leftDiv ul li {
+        font-size: 20px;
+    }
+
+    .rightDiv {
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .formContainer {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        background-color: #F3F8FF;
+    }
+
+
+    .leftDiv h1, .rightDiv h1 {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+    .leftDiv input {
+        width: 300px;
+    }
+
+    .leftDiv button {
+        width: 300px;
+    }
+
+    .rightDiv {
+        border-radius: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .formContainer {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-color: #F3F8FF;
+    }
+
+    .leftDiv h1, .rightDiv h1 {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+    .leftDiv input {
+        width: 300px;
+    }
+
+    .leftDiv button {
+        width: 300px;
+    }
+
+    .rightDiv {
+        border-radius: 0px;
+    }
+
+}
