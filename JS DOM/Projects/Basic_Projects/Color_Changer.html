@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Lucida Sans';
+            flex-direction: column;
+            justify-content: center;
+            transition: all 1s ease;
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px 0px;
+            background-color: #f1faee;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-family: 'Lucida Sans';
+            font-weight: 700;
+            background-color: #457b9d;
+            color: #f1faee;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.5s ease-out;
+        }
+
+        .navbar a:hover{
+            background-color: #1d3557;            
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            padding-top: 40px;
+            color: #1d3557;
+        }
+
+        h2{
+            margin: 0px auto;
+            width: 700px;
+            padding-top: 80px;
+        }
+
+        .btn-container{
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn-container button {
+            margin: 0px 20px;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            
+        }
+
+        .btn-container button:nth-child(1){
+            background-color: grey;
+            border: none;
+            border: 1px solid;  
+        }
+
+        .btn-container button:nth-child(2){
+            background-color: white;
+            border: none;
+            border: 1px solid;  
+        }
+
+        .btn-container button:nth-child(3){
+            background-color: blue;
+            border: none;
+            border: 1px solid;  
+        }
+
+        .btn-container button:nth-child(4){
+            background-color: yellow;
+            border: none;
+            border: 1px solid;  
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="https://github.com/MuhammadShakir-dev" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/muhammad-shakir-dev/" target="_blank">LinkedIn</a>
+    </div>
+
+    <h1>Color Scheme Switcher</h1>
+
+    <div class="btn-container">
+        <button id="grey"></button>
+        <button id="white"></button>
+        <button id="blue"></button>
+        <button id="yellow"></button>
+    </div>
+
+
+    <h2>
+        Try Clicking on one of the colors above to change the background color of this page
+    </h2>
+
+    <!--JS script tag-->
+    <script src="Color_Changer.js"></script>
+</body>
+
+</html>
