@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Style tag CSS-->    
+    <style>
+        body {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            background-color: #DFF5FF;
+            font-family: "Lato", sans-serif;
+        }
+
+        .main-container {
+            width: 50%;
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: row;
+            border: 1px solid;
+            justify-content: center;
+            background-color: #378CE7;
+            border: none;
+            border-radius: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            color: white;
+        }
+
+        form label {
+            display: block;
+            margin: 10px 0px;
+            color: white;
+        }
+
+        form input {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid;
+            outline: none;
+            width: 350px;
+            margin: 0px 0px 20px 0px;
+            color: white;
+            background-color: #378CE7;
+        }
+
+        form button {
+            display: block;
+            margin: 20px 0px;
+            padding: 15px 30px;
+            cursor: pointer;
+            background-color: #5356FF;
+            border: none;
+            color: white;
+            border-radius: 100px;
+        }
+
+        form p {
+            margin: 20px 0px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <form action="submit">
+            <h1>BMI Calculator 💻</h1>
+            <label for="height">Height</label>
+            <input type="text" name="height" id="height">
+
+            <label for="weight">Weight</label>
+            <input type="text" name="weight" id="weight">
+
+            <button>Calculate</button>
+            <p>Please enter your height in [cm] and weight in [kg]</p>
+
+            <div id="result"></div>
+
+        </form>
+
+    </div>
+
+    <script src="BMI.js"></script>
+</body>
+
+</html>
