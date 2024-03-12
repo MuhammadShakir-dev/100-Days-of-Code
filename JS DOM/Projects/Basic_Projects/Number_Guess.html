@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess</title>
+
+    <!--Style tag CSS-->
+    <style>
+        body {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            background-color: #F9F7F7;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 2%;
+            color: #112D4E;
+        }
+
+        .game-container {
+            width: 90%;
+            height: 70vh;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: grey;
+            border-radius: 20px;
+            background-color: #DBE2EF;
+        }
+
+        .game-container form {
+            display: flex;
+            padding: 40px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .game-container form input {
+            width: 400px;
+            border: none;
+            border-bottom: 1px solid;
+            outline: none;
+            background-color: #DBE2EF;
+            color: #112D4E;
+        }
+
+        .game-container form input::placeholder {
+            color: #112D4E;
+            padding: 10px 0px;
+        }
+
+        .game-container p {
+            width: 50%;
+            text-align: center;
+        }
+
+        .game-container .button {
+            margin: 40px 0px 20px 0px;
+            width: 300px;
+            height: 70px;
+            border: none;
+            border-radius: 100px;
+            background-color: #112D4E;
+            color: white;
+            cursor: pointer;
+        }
+
+        .game-container h1 {
+            margin-bottom: 50px;
+            color: #112D4E;
+        }
+
+        .reultsParas{
+            display: flex;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Number Guessing Game</h1>
+    <div class="game-container">
+
+        <form action="submit">
+            <p>
+                Try and guess a random number between 1 and 100.
+                You have 10 attempts to guess the right number.
+            </p>
+
+            <h1>Guess a number</h1>
+            <input type="text" placeholder="Enter a number">
+            <input type="submit" name="button" class="button">
+        </form>
+
+        <div class="reultsParas">
+            <p>Previous Guesses: <span class="list"></span></p>
+            <p>Gussess Remaining: <span class="guesses">10</span> </p>
+            <div class="lowOrHi"></div>
+        </div>
+
+    </div>
+
+    <script src="Number_Guess.js"></script>
+</body>
+
+</html>
