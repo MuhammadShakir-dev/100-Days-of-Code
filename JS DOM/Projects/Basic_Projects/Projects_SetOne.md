@@ -10,10 +10,10 @@ This repository contains basic JS Projects. Including
 ## Projects Links
 <p>All projects are hosted and live</p>
 
-1. Link 1: 
-2. Link 2:
-3. Link 3;
-4. Link 4;  
+1. Link 1: https://color-change-js-project.vercel.app/
+2. Link 2: https://bmi-calculator-beta-roan.vercel.app/
+3. Link 3; https://digital-clock-one-sandy.vercel.app/
+4. Link 4; https://number-guessing-game-lovat.vercel.app/ 
 
 ## Project 1 Solution Code
 ```javascript
