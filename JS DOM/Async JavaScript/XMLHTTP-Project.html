@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API request</title>
+
+    <style>
+        body{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        .infoDiv{
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            border: 1px solid;
+            border-radius:10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:space-evenly ;
+        }
+
+        .infoDiv .imgContainer{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 0px auto 
+
+        }
+
+        .img{
+            width: 100%;
+            height: auto;
+        }
+
+        .infoDiv p {
+            margin: 2px 0px;
+        }
+
+        .bio{
+            width: 300px;
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        h5{
+            text-align: center;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <h1>Get your GitHub Account Info</h1>
+    <h5>Enter your GitHub account name in the prompt and click on the Getinfo Button</h5>
+    <div class="infoDiv">
+        <div class="imgContainer">
+
+        </div>  
+        <ul></ul>
+        <p class="name"></p>
+        <p class="bio"></p>
+        <p class="followers"></p>
+        <p class="following"></p>
+        <button>Get info</button>
+    </div>
+
+    
+    <script src="XMLHTTP project.js"></script>
+</body>
+</html>
 
